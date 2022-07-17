@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F0EBE3;
+}
+
+.map {
+    position: absolute;
+    left: 30%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.map path {
+    fill: #7D9D9C;
+    stroke: #E4DCCF;
+    stroke-width: 2px;
+    transition: all ease .5s;
+}
+
+.map :hover {
+    fill: #576F72;
+}
+
+.info-block {
+    width: 597px;
+    height: 670px;
+    background-color: #E4DCCF;
+    position: absolute;
+    left: 70%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'IM Fell French Canon', serif;
+    border-radius: 18px;
+}
+
+.start-info .text {
+    padding-top: 120px;
+}
+
+.start-info .gif {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+.text {
+    padding:  0px 50px;
+    text-align: center;
+}
+
+.text h1 {
+    padding: 16px 0px;
+}
+
+.text p {
+    padding: 8px 0px;
+}
+
+.block-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    margin-top: 28px;
+}
+
+.block-img img {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
