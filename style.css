@@ -9,7 +9,7 @@ body {
 
 .map {
     position: absolute;
-    left: 30%;
+    left: 25%;
     top: 50%;
     transform: translate(-50%, -50%);
 }
@@ -31,7 +31,7 @@ body {
     height: 670px;
     background-color: #E4DCCF;
     position: absolute;
-    left: 70%;
+    left: 75%;
     top: 50%;
     transform: translate(-50%, -50%);
     font-family: 'IM Fell French Canon', serif;
@@ -43,7 +43,7 @@ body {
     height: 670px;
     background-color: #E4DCCF;
     position: absolute;
-    left: 70%;
+    left: 75%;
     top: 50%;
     transform: translate(-50%, -50%);
     font-family: 'IM Fell French Canon', serif;
