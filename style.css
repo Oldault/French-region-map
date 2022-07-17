@@ -19,6 +19,7 @@ body {
     stroke: #E4DCCF;
     stroke-width: 2px;
     transition: all ease .5s;
+    cursor: pointer;
 }
 
 .map :hover {
@@ -26,6 +27,18 @@ body {
 }
 
 .info-block {
+    width: 597px;
+    height: 670px;
+    background-color: #E4DCCF;
+    position: absolute;
+    left: 70%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'IM Fell French Canon', serif;
+    border-radius: 18px;
+}
+
+.start-info {
     width: 597px;
     height: 670px;
     background-color: #E4DCCF;
@@ -45,6 +58,19 @@ body {
     display: flex;
     justify-content: center;
     padding-top: 80px;
+}
+
+.return-btn {
+    position: relative;
+}
+
+#return {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    width: 100%;
+    max-width: 40px;
+    cursor: pointer;
 }
 
 .text {

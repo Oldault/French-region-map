@@ -45,86 +45,96 @@ burgogneBtn.addEventListener('click', () => {
     }
 })
  */
+
+const returnBtn = document.querySelector('#return');
+const info = document.querySelector('.info-block');
+const headerInfo = document.querySelector('.start-info');
+
+returnBtn.addEventListener('click', () => {
+    info.style.display = 'none';
+    headerInfo.style.display = 'block';
+})
+
 $(document).ready(function(){
     $(".info-block").hide();
     
     
     $("#R1").click(function(){
-        $(".info-block").fadeOut(300, function() {
-            $(".grand-est").delay(300).fadeIn(300);
-        })
+        $(".start-info").hide()
+        $(".info-block").hide()
+        $(".grand-est").fadeIn(500);
     });
     
     $("#R2").click(function(){
-        $(".info-block").fadeOut(300, function() {
-            $(".hauts-de-france").delay(300).fadeIn(300);
-        })
+        $(".start-info").hide()
+        $(".info-block").hide()
+        $(".hauts-de-france").fadeIn(500);
     });
     
     $("#R3").click(function(){
-        $(".info-block").fadeOut(300, function() {
-            $(".ile-de-France").delay(300).fadeIn(300);
-        })
+        $(".start-info").hide()
+        $(".info-block").hide()
+        $(".ile-de-France").fadeIn(500);
     });
     
     $("#R4").click(function(){
-        $(".info-block").fadeOut(300, function() {
-            $(".bourgogne").delay(300).fadeIn(300);
-        })
+        $(".start-info").hide()
+        $(".info-block").hide()
+        $(".bourgogne").fadeIn(500);
     });
 
     $("#R5").click(function(){
-        $(".info-block").fadeOut(300, function() {
-            $(".centre-val").delay(300).fadeIn(300);
-        })
+        $(".start-info").hide()
+        $(".info-block").hide()
+        $(".centre-val").fadeIn(500);
     });
     
     $("#R6").click(function(){
-        $(".info-block").fadeOut(300, function() {
-            $(".auvergne").delay(300).fadeIn(300);
-        })
+        $(".start-info").hide()
+        $(".info-block").hide()
+        $(".auvergne").fadeIn(500);
     });
     
     $("#R7").click(function(){
-        $(".info-block").fadeOut(300, function() {
-            $(".aquitaine").delay(300).fadeIn(300);
-        })
+        $(".start-info").hide()
+        $(".info-block").hide()
+        $(".aquitaine").fadeIn(500);
     });
     
     $("#R8").click(function(){
-        $(".info-block").fadeOut(300, function() {
-            $(".normandie").delay(300).fadeIn(300);
-        })
+        $(".start-info").hide()
+        $(".info-block").hide()
+        $(".normandie").fadeIn(500);
     });
 
     $("#R9").click(function(){
-        $(".info-block").fadeOut(300, function() {
-            $(".bretagne").delay(300).fadeIn(300);
-        })
+        $(".start-info").hide()
+        $(".info-block").hide()
+        $(".bretagne").fadeIn(500);
     });
     
     $("#R10").click(function(){
-        $(".info-block").fadeOut(300, function() {
-            $(".pays-loire").delay(300).fadeIn(300);
-        })
+        $(".start-info").hide()
+        $(".info-block").hide()
+        $(".pays-loire").fadeIn(500);
     });
     
     $("#R11").click(function(){
-        $(".info-block").fadeOut(300, function() {
-            $(".occitanie").delay(300).fadeIn(300);
-        })
+        $(".start-info").hide()
+        $(".info-block").hide()
+        $(".occitanie").fadeIn(500);
     });
     
     $("#R12").click(function(){
-        $(".info-block").fadeOut(300, function() {
-            $(".cote-azur").delay(300).fadeIn(300);
-        })
+        $(".start-info").hide()
+        $(".info-block").hide()
+        $(".cote-azur").fadeIn(500);
     });
 
     $("#R13").click(function(){
-        $(".info-block").fadeOut(300, function() {
-            $(".corse").delay(300).fadeIn(300);
-        })
+        $(".start-info").hide()
+        $(".info-block").hide()
+        $(".corse").fadeIn(500);
     });
     
   
