@@ -5,13 +5,16 @@
 
 body {
     background-color: #F0EBE3;
+    display: flex;
+    margin-top: 120px;
 }
 
 .map {
-    position: absolute;
+    /* position: absolute;
     left: 25%;
     top: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
+    margin: 0 auto;
 }
 
 .map path {
@@ -26,14 +29,15 @@ body {
     fill: #576F72;
 }
 
-.info-block, .start-info {
+.info-block {
     width: 597px;
     height: 670px;
     background-color: #E4DCCF;
-    position: absolute;
+    /* position: absolute;
     left: 75%;
     top: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
+    margin: 0 auto;
     font-family: 'IM Fell French Canon', serif;
     border-radius: 18px;
     padding: 28px;
@@ -91,4 +95,63 @@ img {
     width: 100%;
     height: auto;
     border-radius: 20px;
+}
+
+@media only screen and (max-width: 1400px) {
+    body {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    .map svg {
+        width: 100%;
+        height: auto;
+        vertical-align: middle; 
+        overflow: hidden; 
+    }
+
+    .info-block {
+        width: 80%;
+        height: auto;
+    }
+
+    .info-block p {
+        padding: 0 30px;
+    }
+
+    .info-block h1 {
+        padding: 16px 30px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    body {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    .map svg {
+        width: 100%;
+        height: auto;
+        vertical-align: middle; 
+        overflow: hidden; 
+    }
+
+    .info-block {
+        margin: 0 30px;
+        margin-top: 30px;
+        width: 100%;
+        height: auto;
+        padding: 0;
+    }
+
+    .info-block p {
+        padding: 0 30px;
+    }
+
+    .info-block h1 {
+        padding: 16px 30px;
+    }
 }

@@ -1,5 +1,3 @@
-/* const regionsJson = require('/regions.json') */
-
 const R1 = document.getElementById('R1') //grand-est
 const R2 = document.getElementById('R2') //hauts-de-france
 const R3 = document.getElementById('R3') //ile-de-France
@@ -68,7 +66,7 @@ function showR3Info() {
 }
 
 
-R4.addEventListener('click', showR4Info) //ile-de-France
+R4.addEventListener('click', showR4Info) //bourgogne
 function showR4Info() {
     fetch(url)
     .then(res => res.json())
@@ -83,7 +81,7 @@ function showR4Info() {
     })
 }
 
-R5.addEventListener('click', showR5Info) //ile-de-France
+R5.addEventListener('click', showR5Info) //centre-val
 function showR5Info() {
     fetch(url)
     .then(res => res.json())
@@ -98,7 +96,7 @@ function showR5Info() {
     })
 }
 
-R6.addEventListener('click', showR6Info) //ile-de-France
+R6.addEventListener('click', showR6Info) //auvergne 
 function showR6Info() {
     fetch(url)
     .then(res => res.json())
@@ -113,7 +111,7 @@ function showR6Info() {
     })
 }
 
-R7.addEventListener('click', showR7Info) //ile-de-France
+R7.addEventListener('click', showR7Info) //aquitaine 
 function showR7Info() {
     fetch(url)
     .then(res => res.json())
@@ -128,7 +126,7 @@ function showR7Info() {
     })
 }
 
-R8.addEventListener('click', showR8Info) //ile-de-France
+R8.addEventListener('click', showR8Info) //normandie
 function showR8Info() {
     fetch(url)
     .then(res => res.json())
@@ -143,7 +141,7 @@ function showR8Info() {
     })
 }
 
-R9.addEventListener('click', showR9Info) //ile-de-France
+R9.addEventListener('click', showR9Info) //bretagne
 function showR9Info() {
     fetch(url)
     .then(res => res.json())
@@ -158,7 +156,7 @@ function showR9Info() {
     })
 }
 
-R10.addEventListener('click', showR10Info) //ile-de-France
+R10.addEventListener('click', showR10Info) //pays-loire
 function showR10Info() {
     fetch(url)
     .then(res => res.json())
@@ -173,7 +171,7 @@ function showR10Info() {
     })
 }
 
-R11.addEventListener('click', showR11Info) //ile-de-France
+R11.addEventListener('click', showR11Info) //occitanie 
 function showR11Info() {
     fetch(url)
     .then(res => res.json())
@@ -188,7 +186,7 @@ function showR11Info() {
     })
 }
 
-R12.addEventListener('click', showR12Info) //ile-de-France
+R12.addEventListener('click', showR12Info) //cote-azur
 function showR12Info() {
     fetch(url)
     .then(res => res.json())
@@ -203,7 +201,7 @@ function showR12Info() {
     })
 }
 
-R13.addEventListener('click', showR13Info) //ile-de-France
+R13.addEventListener('click', showR13Info) //corse
 function showR13Info() {
     fetch(url)
     .then(res => res.json())
