@@ -1,12 +1,8 @@
 
-const returnBtn = document.querySelector('#return');
+
 const info = document.querySelector('.info-block');
 const headerInfo = document.querySelector('.start-info');
 
-returnBtn.addEventListener('click', () => {
-    info.style.display = 'none';
-    headerInfo.style.display = 'block';
-})
 
 $(document).ready(function(){
     $(".info-block").hide();
