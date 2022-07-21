@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&display=swap" rel="stylesheet">
     <title>Document</title>
+    <script defer src="/script.js"></script>
 </head>
 <body>
     <div class="map">
@@ -155,233 +156,19 @@
     </g>
     </svg>
     </div>
-    <div class="info">
-        <div class="start-info">
-            <div class="text">
-                <h1>Click on the regions to learn more about France!</h1>
-                <p>France is a huge Country. Safe to say it has a lot to offer. Maybe you're looking for a fine Gourmet experience, wine or food; perhaps a change of scenery
-                    such as the the cold high Alps or the sand sky blue beaches. Wathever it may be, France is filled with as many beauties as one can count.
-                    A truly must visit country!
-                </p>
-                <p>Click to find out more about the regions you select^^</p>
-            </div>
-            <!-- <div class="gif">
-                <img src="/images/french flag.gif" alt="French patriotism gif">
-            </div> -->
+    <div class="info-block">
+        <div class="image">
+            <img src="" />
         </div>
+        <div class="title">
+            <h1 id="region-name"></h1>
+        </div>
+        <div class="description">
+            <p id="region-desc"></p>
+        </div>
+        <!-- <div class="weather">
 
-        <div class="grand-est info-block">
-            <div class="block-img">
-                <img src="/images/Grand-Est.jpg" alt="Grand est">
-            </div>
-            <div class="text">
-                <h1>Grand Est</h1>
-                <p>Le Grand Est est une nouvelle région française, créée le 1er janvier 2016 par le découpage des régions françaises. 
-                    Elle regroupe les anciennes régions Alsace, Lorraine et Champagne-Ardenne. 
-                    Située au nord-est de la France, son chef-lieu est Strasbourg.
-                    La région s'est provisoirement appelée Alsace-Champagne-Ardenne-Lorraine à sa création. 
-                    Son nom définitif a été voté par le Conseil régional le 29 avril 2016 et devra être accepté par le Conseil d'État avant le 1er octobre 2016.1
-                </p>
-            </div>
-            
-        </div>
-
-        <div class="hauts-de-france info-block">
-            <div class="block-img">
-                <img src="/images/Hauts de France.jpg" alt="Hauts de France">
-            </div>
-            <div class="text">
-                <h1>Hauts-de-France</h1>
-                <p>
-                    La région des Hauts-de-France regorge d’une grande diversité de paysages. Il y en a pour tous les goûts ! Elle saura donc vous charmer. Pour les amoureux de la nature : son côté sauvage, 
-                    l’observation des animaux et les nombreuses randonnées vous captiveront. Pour les citadins : les villes et leurs richesses culturelles (braderie, musée, vieux quartiers) vous séduiront. 
-                    Pour les férus d’histoire et de patrimoine : vous trouverez sans aucun doute votre bonheur.
-                </p>
-            </div>
-            
-        </div>
-
-        <div class="ile-de-France info-block">
-            <div class="block-img">
-                <img src="/images/Ile-de-France.jpg" alt="Ile de France">
-            </div>
-            <div class="text">
-                <h1>Ile de France</h1>
-                <p>
-                    Évidemment il y a Paris, mondialement connue et dans le top des destinations touristiques au monde. Mais il n’y a pas que la capitale française à visiter en Île-de-France, 
-                    loin de là. La région, déjà prospère durant l’Antiquité, est devenue le centre névralgique du pays depuis le Moyen-Âge jusqu’à nos jours. De ce fait, l’Île-de-France dispose 
-                    d’une incroyable concentration de monuments historiques, parcs, jardins paysagers et autres musées d’exception.
-                </p>
-            </div>
-            <div class="weather">
-                
-            </div>
-            
-        </div>
-
-        <div class="bourgogne info-block">
-            <div class="block-img">
-                <img src="/images/Bourgogne.jpg" alt="Bourgongne-Franche-Comte">
-            </div>
-            <div class="text">
-                <h1>Bourgogne-Franche-Comte</h1>
-                <p>
-                    Vous avez envie de vous échapper dans un endroit authentique le temps d’un week-end sans aller trop loin ?  Idéalement située à 2h de Paris, la Bourgogne suscite la curiosité pour son patrimoine remarquable, 
-                    ses bons vins et sa gastronomie raffinée. Cette destination offre de multiples opportunités d’évasion, de loisirs et d’activités.
-                    Le vignoble de Bourgogne s’étire sur près de  240 km du nord au sud d’Auxerre à Mâcon. Terre d’élection des cépages pinot noir et chardonnay, la Bourgogne est réputée pour ses vins à travers le monde. 
-                    Explorez les sites incontournables qui font la richesse de cette région viticole en sillonnant la route des vins de Bourgogne.
-                </p>
-            </div>
-            
-        </div>
-
-        <div class="centre-val info-block">
-            <div class="block-img">
-                <img src="/images/Centre val de loire.jpg" alt="Bourgongne-Franche-Comte">
-            </div>
-            <div class="text">
-                <h1>Centre-Val de Loire</h1>
-                <p>
-                    La région Centre-Val-de-Loire est une région au coeur de la France. À proximité des grands centres et de la capitale, c’est un territoire pleins de surprises. 
-                    Très appréciée des touristes étrangers, c’est une région emblématique du patrimoine historique du pays. Avec ses grandes étendues agricoles et ses sublimes châteaux, 
-                    le Centre-Val-de-Loire se prête au tourisme. Vous pourrez savourer ses paysages vallonnés et verdoyants, ainsi que de nombreuses visites dans les villes typiques de 
-                    la région.
-                </p>
-            </div>
-            
-        </div>
-
-        <div class="auvergne info-block">
-            <div class="block-img">
-                <img src="/images/Auvergne.jpg" alt="Bourgongne-Franche-Comte">
-            </div>
-            <div class="text">
-                <h1>Auvergne</h1>
-                <p>
-                    La région Auvergne-Rhône-Alpes offre une large palette de destinations, avec la ville de Lyon, capitale de la gastronomie, le Mont-Blanc, le toit de l’Europe, 
-                    la Drôme et l’Ardèche, évocatrice de la Provence, l’Auvergne avec ses lacs et ses volcans. En hiver, les célèbres stations de ski des Alpes françaises attirent des 
-                    touristes du monde entier : Chamonix, Courchevel, Megève, Méribel, Val d’Isère, Val Thorens, etc.
-                </p>
-            </div>
-            
-        </div>
-
-        <div class="aquitaine info-block">
-            <div class="block-img">
-                <img src="/images/Nouvelle aquitaine.jpg" alt="Bourgongne-Franche-Comte">
-            </div>
-            <div class="text">
-                <h1>Nouvelle Aquitaine</h1>
-                <p>
-                    La Nouvelle-Aquitaine est la plus grande région de France, née du remaniement de celles-ci en 2016. Elle s’étend sur plus de 86 000 kilomètres carrés et comprend en tout 12 départements dont la Gironde, 
-                    les Landes, et les Pyrénées-Atlantiques. Évidemment, visiter la Nouvelle-Aquitaine ne peut se faire en un seul séjour, vous devrez probablement y retourner plusieurs fois, ou y rester un petit moment. 
-                    En effet, chacun de ses départements possède sa propre identité et ses spécialités, qu’elles soient culturelles, historiques ou même gastronomiques. 
-                    De Poitiers à Pau, en passant par Bordeaux et Limoges, la Nouvelle-Aquitaine n’a de cesse de surprendre par sa richesse et ses lieux célèbres à visiter absolument.
-                </p>
-            </div>
-            
-        </div>
-
-        <div class="normandie info-block">
-            <div class="block-img">
-                <img src="/images/Normandie.jpeg" alt="Bourgongne-Franche-Comte">
-            </div>
-            <div class="text">
-                <h1>Normandie</h1>
-                <p>
-                    Les longues plages de sable coincées entre la mer et les falaises d’Étretat font de la Normandie une destination touristique de premier plan. Chargée d’Histoire et parfois même de soleil, 
-                    la Normandie se visite toute l’année. On peut ainsi se ressourcer en toute quiétude, admirer les nombreux chars à voile les cheveux au vent, été comme hiver. Autre avantage indéniable de la 
-                    Normandie pour partir un week-end ou plus : les cyclistes et automobilistes se côtoient sans peine. Les longues balades à vélo en famille sont alors possibles en toute sécurité.
-                </p>
-            </div>
-            
-        </div>
-
-        <div class="bretagne info-block">
-            <div class="block-img">
-                <img src="/images/bretagne.jpg" alt="Bourgongne-Franche-Comte">
-            </div>
-            <div class="text">
-                <h1>Bretagne</h1>
-                <p>
-                    Visiter la Bretagne vaut le détour ! Cette région française détient à la fois de superbes espaces naturels, des villes de caractères, des belles plages et des monuments historiques. 
-                    En prime, une douceur de vivre et la chaleur des habitants qui rendra votre séjour inoubliable !
-                    Visiter la Bretagne, c’est faire une plongée dans l’histoire tout en parcourant des villes modernes paisibles. La baie du Mont Saint-Michel, le grand menhir brisé d’Er Grah, les alignements de Carnac, la Tour Solidor, Rennes, 
-                    la capitale bretonne ou encore les châteaux en Haute-Bretagne, sont autant de lieux à ne pas manquer !
-                    Si vous prévoyez de visiter la Bretagne, des promenades à pied ou en vélo sont à inclure dans votre programme. Parmi les balades phares : explorer la mythique forêt de Brocéliande et les Montagnes Noires, faire un tour sur l’île de 
-                    Houat ou de la presqu’île de Crozon, randonner le long de la côte de Granit Rose ou encore parcourir Belle-Ile ou la Vallée de la Vilaine à vélo.
-                </p>
-            </div>
-            
-        </div>
-
-        <div class="pays-loire info-block">
-            <div class="block-img">
-                <img src="/images/Pays de la loire.jpg" alt="Bourgongne-Franche-Comte">
-            </div>
-            <div class="text">
-                <h1>Pays de la Loire</h1>
-                <p>
-                    Le Pays de la Loire possède un patrimoine exceptionnel qui mérite de vous y arrêter quelques jours. Préparez vos bagages et partez donc à la découverte des villes, des monuments et trésors naturels de ce territoire. 
-                    Visiter le Pays de la Loire sous toutes ses facettes est évidemment une excellente idée pour découvrir un pan entier de la culture, du patrimoine et de l’Histoire française.
-                    Et dans le Pays de la Loire, il y a en a pour tous les goûts ! Entre l’Atlantique, les Châteaux de la Loire ou le Val de Loire, vous aurez de quoi vous occuper. 
-                    Que vous soyez amateurs·trices d’histoire, de nature ou de farniente, vous trouverez forcément des choses à faire dans le Pays de la Loire. 
-                </p>
-            </div>
-            
-        </div>
-
-        <div class="occitanie info-block">
-            <div class="block-img">
-                <img src="/images/Occitanie.jpg" alt="Bourgongne-Franche-Comte">
-            </div>
-            <div class="text">
-                <h1>Occitanie</h1> 
-                <p>
-                    Si vous n’êtes jamais allé en Occitanie, sachez que vous ratez beaucoup, car cette région française a énormément à offrir. Elle fait partie des plus belles régions de France, et vous accueillera pour un séjour des plus inoubliables. 
-                    Aussi, quel que soit le département que vous allez choisir, vous n’allez pas vous ennuyer.
-                    Ce sont de multiples richesses que cache cette région de France, qui regroupe à elle seule, le Languedoc-Roussillon et le Midi-Pyrénées. L’Occitanie est donc très vaste et se trouve dans le quart sud-ouest de la France. 
-                    Elle regorge de magnifiques paysages, avec plusieurs cours d’eau, sans parler des nombreux récifs et de belles plages dorées. Il s’agit donc d’une région où il fait bon vivre, et qui est une destination de choix pendant les vacances.
-                </p>
-            </div>
-            
-        </div>
-
-        <div class="cote-azur info-block">
-            <div class="block-img">
-                <img src="/images/Provence-Alpes-Cote-DAzur.jpg" alt="Bourgongne-Franche-Comte">
-            </div>
-            <div class="text">
-                <h1>Provence Alpes Cote D'Azur.</h1>
-                <p>
-                    Une vaste région, comme le laisse supposer son nom à rallonge. Le PACA regroupe quelques-unes des régions les plus attractives de France, que ce soit pour le soleil, la mer, la gastronomie, la nature... Il y a la Provence, 
-                    ses villages, sa garrigue et ses accents chantants, la Côte d'Azur, ses stations balnéaires, ses paillettes et ses îles, et les Alpes du Sud, leurs parcs naturels et ce littoral découpé et spectaculaire : une vaste région que 
-                    le PACA, mais aussi un vrai dépaysement dans son propre pays !
-                    La Provence-Alpes-Côte d'Azur est logiquement l'une des régions les plus touristiques du sud de la France. Elle comprend les départements des 
-                    Alpes-de-Haute-Provence, des Alpes-Maritimes, des Bouches-du-Rhône, des Hautes-Alpes, du Var, et du Vaucluse. La région s'étend des portes de 
-                    l'Italie dont elle est limitrophe jusqu'à rencontrer le Rhône et son delta, la Camargue, tandis que ses frontières couvrent ausi les hauteurs grandissantes 
-                    des Alpes.
-                </p>
-            </div>
-            
-        </div>
-
-        <div class="corse info-block">
-            <div class="block-img">
-                <img src="/images/Corse.jpg" alt="Bourgongne-Franche-Comte">
-            </div>
-            <div class="text">
-                <h1>Corse</h1>
-                <p>
-                    La Corse est une destination de vacances populaire parmi les touristes, mieux connue dans le monde entier pour son climat chaud, ses sommets montagneux spectaculaires et ses côtes magnifiques. Située au sud-est de la
-                    côte méditerranéenne française, l’île attire un flux constant de visiteurs chaque année. En plus d’être le rêve de tous les amateurs de plage, la Corse possède une 
-                    histoire riche de traditions séculaires, avec des bâtiments anciens à chaque coin de rue, des rues pavées sinueuses, une cuisine délicieuse et une scène artistique et 
-                    musicale florissante.
-                </p>
-            </div>
-            
-        </div>
+        </div> -->
     </div>
-    <script src="/main.js"></script>
 </body>
 </html>
