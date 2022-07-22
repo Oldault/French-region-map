@@ -27,13 +27,15 @@ body {
 
 .info-block {
     width: 597px;
-    height: 670px;
+    height: auto;
     background-color: #E4DCCF;
     margin: 0 auto;
     font-family: 'IM Fell French Canon', serif;
     border-radius: 18px;
     padding: 28px;
     position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
 .image {
