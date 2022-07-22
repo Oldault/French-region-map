@@ -1,163 +1,162 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background-color: #F0EBE3;
-    display: flex;
-    margin-top: 120px;
+  background-color: #f0ebe3;
+  display: flex;
+  margin-top: 120px;
 }
 
 .map {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 .map path {
-    fill: #7D9D9C;
-    stroke: #E4DCCF;
-    stroke-width: 2px;
-    transition: all ease .5s;
-    cursor: pointer;
+  fill: #7d9d9c;
+  stroke: #e4dccf;
+  stroke-width: 2px;
+  transition: all ease 0.5s;
+  cursor: pointer;
 }
 
 .map :hover {
-    fill: #576F72;
+  fill: #576f72;
 }
 
 .info-block {
-    width: 597px;
-    height: auto;
-    background-color: #E4DCCF;
-    margin: 0 auto;
-    font-family: 'IM Fell French Canon', serif;
-    border-radius: 18px;
-    padding: 28px;
-    position: relative;
-    display: flex;
-    flex-direction: column;
+  width: 597px;
+  height: auto;
+  background-color: #e4dccf;
+  margin: 0 auto;
+  font-family: "IM Fell French Canon", serif;
+  border-radius: 18px;
+  padding: 28px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
 .image {
-    max-width: 480px;
-    margin: 0 auto;
+  max-width: 480px;
+  margin: 0 auto;
 }
 
 img {
-    width: 100%;
-    border-radius: 8px;
+  width: 100%;
+  border-radius: 8px;
 }
 
-
 .title {
-    text-align: center;
+  text-align: center;
 }
 
 .title h1 {
-    padding: 16px 0px;
+  padding: 16px 0px;
 }
 
 .title p {
-    padding: 8px 0px;
+  padding: 8px 0px;
 }
 
 .block-img {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: auto;
-    margin-top: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  margin-top: 28px;
 }
 
 .block-img img {
-    max-width: 400px;
-    width: 100%;
-    height: auto;
-    border-radius: 20px;
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
 }
 
 .low-info {
-    background-color: #7D9D9C;
-    bottom: 0;
-    left: 0;
-    padding: 0 14px;
-    border-radius: 18px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-family: 'Lora', serif;
-    margin-top: 18px;
+  background-color: #7d9d9c;
+  bottom: 0;
+  left: 0;
+  padding: 0 14px;
+  border-radius: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Lora", serif;
+  margin-top: 18px;
 }
 
 .left-info {
-    padding: 10px 0px;
+  padding: 10px 0px;
 }
 
 .left-info p {
-    margin: 8px 0;
+  margin: 8px 0;
 }
 
 #weather {
-    margin: 16px 0;
-    text-transform: capitalize;
-    font-size: 46px;
+  margin: 16px 0;
+  text-transform: capitalize;
+  font-size: 46px;
 }
 
 @media only screen and (max-width: 1400px) {
-    body {
-        flex-direction: column;
-        align-items: center;
-        margin-top: 50px;
-    }
+  body {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
 
-    .map svg {
-        width: 100%;
-        height: auto;
-        vertical-align: middle; 
-        overflow: hidden; 
-    }
+  .map svg {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+    overflow: hidden;
+  }
 
-    .info-block {
-        width: 80%;
-        height: auto;
-    }
+  .info-block {
+    width: 80%;
+    height: auto;
+  }
 
-    .info-block p {
-        padding: 0 30px;
-    }
+  .info-block p {
+    padding: 0 30px;
+  }
 
-    .info-block h1 {
-        padding: 16px 30px;
-    }
+  .info-block h1 {
+    padding: 16px 30px;
+  }
 }
 
 @media only screen and (max-width: 550px) {
-    body {
-        flex-direction: column;
-        align-items: center;
-        margin-top: 50px;
-    }
+  body {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
 
-    .map svg {
-        width: 100%;
-        height: auto;
-        vertical-align: middle; 
-        overflow: hidden; 
-    }
+  .map svg {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+    overflow: hidden;
+  }
 
-    .info-block {
-        margin: 0 30px;
-        margin-top: 30px;
-        width: 100%;
-        height: auto;
-        padding: 0;
-    }
+  .info-block {
+    margin: 0 30px;
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
 
-    .info-block p {
-        padding: 0 30px;
-    }
+  .info-block p {
+    padding: 0 30px;
+  }
 
-    .info-block h1 {
-        padding: 16px 30px;
-    }
+  .info-block h1 {
+    padding: 16px 30px;
+  }
 }
